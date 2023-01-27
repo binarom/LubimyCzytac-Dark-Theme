@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LubimyCzytac Dark Theme 2023
 // @namespace    http://tampermonkey.net/
-// @version      0.0.1
+// @version      0.0.2
 // @description  Dark Theme for LubimyCzytac
 // @author       Binarny
 // @match        https://lubimyczytac.pl/*
@@ -31,9 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
 .authorAllBooks__singleTextSeries {color: #ddd;}
 .authorAllBooks__singleTextShelfLeft {color: #ddd;}
 .authorAllBooks__sortTitle {color: #ddd;}
-.beforeYouAddBook {background: #444; padding-bottom: 10px;}
+.beforeYouAddBook {background: #333; padding-bottom: 10px;}
 .beforeYouAddBook--white {background: #333; color: #ddd;}
-.bgBlue {color: darkblue;}
+.bgBlue {background: #2b5390; color: #eee;}
 .bg-white {background-color: #333 !important;}
 .book .btn.read-action, .book .read-action.cancel-report-a-bug, .book .read-action.send-report-a-bug, .book body.series_addbookstoshelf .read-action.btn--serie-save, body.series_addbookstoshelf .book .read-action.btn--serie-save {background: #333; color: #ccc!important;}
 .book .btn-collapsed--details::after {background: none;}
@@ -196,6 +196,24 @@ h2.dashBoardAccount__title {color: lightskyblue;}
 input {background-color: #444;}
 input {color: white;}
 messages-hld ul.inbox-nav li a {color: #ccc;}
+.around-book-news__smallGrey {background-color: #161616;}
+.around-book__tag {background: #30578e;}
+.container-fluid {background: #1a1a1a;}
+.cover-tile .cover-tile__author, .cover-tile .cover-tile__title {color: #b4b4b4;}
+.info-icon {background: #2b5390;}
+.our-reviewers .our-reviewers__col {color: #bd4000;}
+.our-reviewers .our-reviewers__count {color: #aaa;}
+.our-reviewers .our-reviewers__nick {color: #c4c4c4;}
+.our-reviewers .our-reviewers__status {color: #bbb;}
+.report-a-bug-form h5 {background: #2b5390;}
+.result-tile__badge {background-color: #602000;}
+.small-book .small-book-cover .rating {background: #2b5390;}
+.small-book-details {background: #2b5390;}
+.suggestions__cta {background-color: #ff550050;}
+.tabs .tabs__item {color: #eee;}
+.tile--category-13 .tile__category {background: rgba(60,20,20,.8);}
+.tile__comments {color: #b1b1b1;}
+body.author_gettext .small-book-details.small-book-details-rating {background: #2b5390;}
 
 @media (min-width: 992px) {
 	.book .book-cover {border: 0.9375rem solid #3f3f3f;}
