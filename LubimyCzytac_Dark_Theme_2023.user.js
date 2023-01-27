@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LubimyCzytac Dark Theme 2023
 // @namespace    http://tampermonkey.net/
-// @version      0.0.2
+// @version      0.0.3
 // @description  Dark Theme for LubimyCzytac
 // @author       Binarny
 // @match        https://lubimyczytac.pl/*
@@ -214,6 +214,35 @@ messages-hld ul.inbox-nav li a {color: #ccc;}
 .tile--category-13 .tile__category {background: rgba(60,20,20,.8);}
 .tile__comments {color: #b1b1b1;}
 body.author_gettext .small-book-details.small-book-details-rating {background: #2b5390;}
+
+.community-most-active-tile .community-most-active-tile__nick {color: #c3c3c3;}
+.community-most-active-tile .community-most-active-tile__num {color: #c3c3c3;}
+.forum-most-commented-tile .forum-most-commented-tile__bottom {background: #1a1a1a;}
+.forum-most-commented-tile .forum-most-commented-tile__nick {color: #c3c3c3;}
+.forum-most-commented-tile .forum-most-commented-tile__post-intro {color: #c3c3c3;}
+.forum-most-commented-tile .forum-most-commented-tile__title {color: #eee;}
+.forumPosts__messagesList__badge {background: #ff670050;}
+.latest-activites .latest-activites__secondary {background: #1a1a1a;}
+.reviews-tile--featured::before {background-color: #1a1a1a;}
+.reviews-tile__content {color: #eee;}
+.reviews-tile__reviewer {color: #eee;}
+.reviews-tile__time {color: #bababa;}
+.social-buttons .social-button--counter {color: #bababa;}
+.video-tile__date {color: #bababa;}
+.video-tile__title {color: #ddd;}
+.quote-tile::before {color: #1a1a1a;}
+.quote-tile--featured::before {color: #1a1a1a;}
+.challenge-taken__title {color: #eee;}
+.challenge-taken .challenge__progress {background: #1a1a1a;}
+.challenge-taken .challenge__counter {color: #eee;}
+.challenge-taken__info {color: #eee;}
+.challenge__sidebar-heading {color: #eee; background: #1a1a1a;}
+.challenge__sidebar-users {background: #1a1a1a;}
+.challenge__nick {color: #eee;}
+.challenge__time {color: #bababa;}
+.calendar__anniversary--birth {background: #184d0a;}
+.calendar__input {background: #333; color: #eee;}
+.calendar__date .calendar__button, .calendar__date .calendar__button--datepicker {background: #333;}
 
 @media (min-width: 992px) {
 	.book .book-cover {border: 0.9375rem solid #3f3f3f;}
