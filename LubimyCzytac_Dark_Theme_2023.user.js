@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LubimyCzytac Dark Theme 2023
 // @namespace    http://tampermonkey.net/
-// @version      0.0.3
+// @version      0.0.4
 // @description  Dark Theme for LubimyCzytac
 // @author       Binarny
 // @match        https://lubimyczytac.pl/*
@@ -38,8 +38,6 @@ document.addEventListener('DOMContentLoaded', function() {
 .book .btn.read-action, .book .read-action.cancel-report-a-bug, .book .read-action.send-report-a-bug, .book body.series_addbookstoshelf .read-action.btn--serie-save, body.series_addbookstoshelf .book .read-action.btn--serie-save {background: #333; color: #ccc!important;}
 .book .btn-collapsed--details::after {background: none;}
 .book .rating {background: #333;}
-.book .title-container {background: #414141;}
-.book .title-container::before {color: #aaa;}
 .book {background: #3a3a3a;}
 .book-cover__icon__item {background: #333;}
 .book-cover__icons-hld {background: linear-gradient(to left, #333, #333, transparent);}
@@ -243,6 +241,41 @@ body.author_gettext .small-book-details.small-book-details-rating {background: #
 .calendar__anniversary--birth {background: #184d0a;}
 .calendar__input {background: #333; color: #eee;}
 .calendar__date .calendar__button, .calendar__date .calendar__button--datepicker {background: #333;}
+.challenge__progress {background: #333;}
+.society_whrite-slider-hld {background: #1a1a1a;}
+.society_whrite-slider-hld .society-item {color: #aaa;}
+
+.tooltip-inner {background-color:#2b5390;}
+.bs-tooltip-top .arrow::before,.bs-tooltip-auto[x-placement^=top] .arrow::before{top:0;border-width:.4rem .4rem 0;border-top-color:#2b5390;}
+.bs-tooltip-right .arrow::before,.bs-tooltip-auto[x-placement^=right] .arrow::before{right:0;border-width:.4rem .4rem .4rem 0;border-right-color:#2b5390;}
+.bs-tooltip-bottom .arrow::before,.bs-tooltip-auto[x-placement^=bottom] .arrow::before{bottom:0;border-width:0 .4rem .4rem;border-bottom-color:#2b5390;}
+.bs-tooltip-left .arrow::before,.bs-tooltip-auto[x-placement^=left] .arrow::before{left:0;border-width:.4rem 0 .4rem .4rem;border-left-color:#2b5390;}
+
+.review-home__item {background: #1a1a1a;}
+.review-home__item .review-home__reviewer.review-home__reviewer--blue {background: #182e51;}
+.official-review-home__tag {background: #2b5390;}
+.official-review-home__review {background: #1a1a1a;}
+.review-home__item .review-home__date {color: #afb7c4;}
+.forumSection__itemsHld {background: #1a1a1a;}
+.forumSection__itemName {color: skyblue;}
+.forumSection__itemPosts {color: #aaa;}
+.bgLightBlue {background-color: #1a1a1a;}
+.forumUsers__body__pinned-hld--bg {background: #1a1b1c;}
+.forumUsers__header__title {color: #15c8ff;}
+.communityHeader {background: #444;}
+.forumUsers__body__perWeek {color: #ddd;}
+.forumUsers__header__title {color: #ddd;}
+.lightTabs-hld {background: #1a1a1a;}
+.lightTabs__item .nav-link {color: skyblue;}
+.forumUsers__body__pinnedItem a {color: skyblue;}
+.forumUsers__body__desc {color: #aaa;}
+.forumUsers__search-hld .topForum__input {color: #ddd;}
+.forumUsers__header {color: #aaa;}
+.profilReview__info {background: #2b5390;}
+.category-tags span.tag {background: #2b5390;}
+.book .title-container::before {color: #3a3a3a;}
+.book .title-container {background-color: #3a3a3a;}
+
 
 @media (min-width: 992px) {
 	.book .book-cover {border: 0.9375rem solid #3f3f3f;}
