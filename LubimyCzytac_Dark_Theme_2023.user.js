@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LubimyCzytac Dark Theme 2023
 // @namespace    http://tampermonkey.net/
-// @version      0.0.4
+// @version      0.0.5
 // @description  Dark Theme for LubimyCzytac
 // @author       Binarny
 // @match        https://lubimyczytac.pl/*
@@ -177,7 +177,7 @@ a:link {color: lightskyblue;}
 body {background-color: #333; color: #ddd;}
 body::-webkit-scrollbar {background: #353535;}
 body:not(.cms_gettext) .quotes .quote .card-body .card__bottom-btnLight, body:not(.cms_gettext) .card__bottom-btnLight {color: #ddd}
-body:not(.cms_gettext) .quotes .quote .card-footer.card-footer--light {background: #3c3c3c;}
+body:not(.cms_gettext) .quotes .quote .card-footer.card-footer--light {background: #444;}
 body:not(.cms_gettext) .quotes .quote {background: #444;}
 button.menu__button {color: white;}
 div.comment-cloud__body p {color: #000;}
@@ -191,7 +191,7 @@ div.dashBoardActivity__singleTopInfo {color:#ddd;}
 div.dashBoardActivity__undeTitle {color: #ddd;}
 div.overlay {background: #333;}
 h2.dashBoardAccount__title {color: lightskyblue;}
-input {background-color: #444;}
+input {background-color: #222;}
 input {color: white;}
 messages-hld ul.inbox-nav li a {color: #ccc;}
 .around-book-news__smallGrey {background-color: #161616;}
@@ -276,11 +276,46 @@ body.author_gettext .small-book-details.small-book-details-rating {background: #
 .book .title-container::before {color: #3a3a3a;}
 .book .title-container {background-color: #3a3a3a;}
 
+.modal .read-action {background: #333;}
+.modal .read-action.active {background: #ff500020;}
+.modal .add-opinion .your-opinion textarea {background: #111; color: #eee;}
+.modalAddToLib__another-shelves-hld::before {background: none;}
+.sliderHtml .sliderHtml__btn {background: #1a1a1a;}
+.yourChallenge__percentInfo span {color: skyblue;}
+.dashBoardActivity__singleInfoReviewInside {color: #ddd;}
+.form__switchSlider {background-color: #444;}
+.form__switchInput:checked + .form__switchSlider {background-color: #18698a;}
+.randomButton {color: skyblue;}
+.btn-primary:hover, .cancel-report-a-bug:hover, .send-report-a-bug:hover, body.series_addbookstoshelf .btn--serie-save:hover, .btn-primary:focus, .cancel-report-a-bug:focus, .send-report-a-bug:focus, body.series_addbookstoshelf .btn--serie-save:focus {background: #ff670050;}
+.report-a-bug-container .report-a-bug {background: #621f00;}
+.listLibrary__dropDownBtn.listLibrary--btn-secondary {background-color: #ff670050;}
+.book-cover__icon__item:hover {background: #2b5390;}
+.carousel .carousel__cta:focus, .carousel .carousel__cta:hover {background-color: #ff550050;}
+.latest-articles__cta:focus, .latest-articles__cta:hover {background-color: #ff550050;}
+.squiggle__cta:focus, .squiggle__cta:hover {background-color: #ff550050;}
+.popular-books .popular-books__cta:focus, .popular-books .popular-books__cta:hover {background-color: #ff550050;}
+.reviews-tile--featured .reviews-tile__cta:focus, .reviews-tile--featured .reviews-tile__cta:hover {background-color: #ff550050;}
+.reviews-featured-list__cta:focus, .reviews-featured-list__cta:hover {background-color: #ff550050;}
+.latest-activites .latest-activites__cta:focus, .latest-activites .latest-activites__cta:hover {background-color: #ff550050;}
+.reviews-featured-list__cta:focus, .reviews-featured-list__cta:hover {background-color: #ff550050;}
+.challenge__cta {background-color: #ff550050;}
+.challenge__cta:focus, .challenge__cta:hover {background-color: #ffffff50;}
+.favorite-quotes__cta:focus, .favorite-quotes__cta:hover {background-color: #ffffff50;}
+.menu button {color: #ddd;}
+.menu.is-active .menu__content {background: #333;}
+.menu button .icon.icon-menu, .menu button .icon.icon-close {color: #ddd;}
+
+@media (min-width: 768px) {
+	.searchbox__button:hover::before, .searchbox__button:focus::before, .searchbox__button:focus-within::before {color: #ddd;}
+	.header__link .icon:hover::before, .header__link .icon:focus::before, .header__link .icon:focus-within::before {color: #ddd;}
+}
 
 @media (min-width: 992px) {
 	.book .book-cover {border: 0.9375rem solid #3f3f3f;}
 	.dropdown--user .dropdown__content {background-color: #333;}
+	.dropdown--user .dropdown__item a:hover {background: #1a1a1a; color: skyblue;}
 	.menu__item.is-active .menu__list {background: #333;}
+	.menu__item.is-active .menu__item a:hover {background: #1a1a1a; color: skyblue;}
 }
 
 @media (min-width: 1264px) {
