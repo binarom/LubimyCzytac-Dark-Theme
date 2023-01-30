@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         LubimyCzytac Dark Theme 2023
+// @name         LubimyCzytac Dark Theme
 // @namespace    http://tampermonkey.net/
-// @version      0.0.5
+// @version      0.0.6
 // @description  Dark Theme for LubimyCzytac
 // @author       Binarny
 // @match        https://lubimyczytac.pl/*
@@ -304,6 +304,18 @@ body.author_gettext .small-book-details.small-book-details-rating {background: #
 .menu button {color: #ddd;}
 .menu.is-active .menu__content {background: #333;}
 .menu button .icon.icon-menu, .menu button .icon.icon-close {color: #ddd;}
+
+.suggestions__item a {color: #ddd;}
+.newsBoxBook__fans {color: skyblue;}
+.btn, .cancel-report-a-bug, .send-report-a-bug, body.series_addbookstoshelf .btn--serie-save {color: #cdcdcd;}
+select.selectCustom__select:active, select.selectCustom__select:hover {background: #333;}
+.btn-scroll-up:hover {background-color: #ff670050;}
+.addBookAuthorsList {background: #222;}
+.addBookTitleList {background: #222;}
+.addBookTitleList__top {background: #1a1a1a;}
+.addBookTitleList__item:hover, .addBookTitleList__item:focus {background: #1a1a1a;}
+.addBookTitleList__year {color: #ddd;}
+.form__button {color: skyblue;}
 
 @media (min-width: 768px) {
 	.searchbox__button:hover::before, .searchbox__button:focus::before, .searchbox__button:focus-within::before {color: #ddd;}
