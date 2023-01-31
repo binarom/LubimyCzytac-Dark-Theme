@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LubimyCzytac Dark Theme
 // @namespace    http://tampermonkey.net/
-// @version      0.0.6
+// @version      0.0.7
 // @description  Dark Theme for LubimyCzytac
 // @author       Binarny
 // @match        https://lubimyczytac.pl/*
@@ -317,6 +317,34 @@ select.selectCustom__select:active, select.selectCustom__select:hover {backgroun
 .addBookTitleList__year {color: #ddd;}
 .form__button {color: skyblue;}
 
+.cyclesDetails__header {background-color: #3a3a3a;}
+.cyclesDetails .rating {background: #333;}
+.link-name {color: skyblue;}
+.authorMain__rating {background: #333;}
+.authorMain__authorLink {color: skyblue;}
+.authorMain__authorLinkText span {color: #ddd;}
+.authorMain__authorListItem {color: #ddd;}
+.authorMain__ratingTitle {color: #ddd;}
+.authorMain__ratingListItem {color: #ddd;}
+.authorMain__ratingFansCount {color: #ddd;}
+.btn-primary:not(:disabled):not(.disabled):active, .cancel-report-a-bug:not(:disabled):not(.disabled):active, .send-report-a-bug:not(:disabled):not(.disabled):active, body.series_addbookstoshelf .btn--serie-save:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .cancel-report-a-bug:not(:disabled):not(.disabled).active, .send-report-a-bug:not(:disabled):not(.disabled).active, body.series_addbookstoshelf .btn--serie-save:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle, .show > .dropdown-toggle.cancel-report-a-bug, .show > .dropdown-toggle.send-report-a-bug, body.series_addbookstoshelf .show > .dropdown-toggle.btn--serie-save {background-color: #2b5390; border-color: #2b5390;}
+.dashboardUserList__dropdown-menu .dropdown-item {color: skyblue;}
+.dropdown-item:hover, .dropdown-item:focus {background-color: #111;}
+.categoryDescription__boxDescription {color: #ddd;}
+.communityRankingList__item__header {color: skyblue;}
+.communityRanking__listSmall__header {background: #2b5390;}
+.communityRankingList__item__users {background: #222;}
+.communityRanking__listSmall__body li {color: #ddd;}
+.communityRanking__listSmall__body li a {color: #ddd;}
+.communityRanking__listSmall__body li:hover {background: #111;}
+.authorSeries__bg {background: #444;}
+.authorSeries__bookMore:hover {background: #ffffff50;}
+.popularAuthorsInCategory__withoutTop {background: #444; background-image: none;}
+.progress {background-color: #1a1a1a;}
+.news-and-announcements {background: #444;}
+.news-and-announcements .featured-book {background: #555;}
+.news-and-announcements__mobileHide .small-book .small-book-title {color: skyblue;}
+
 @media (min-width: 768px) {
 	.searchbox__button:hover::before, .searchbox__button:focus::before, .searchbox__button:focus-within::before {color: #ddd;}
 	.header__link .icon:hover::before, .header__link .icon:focus::before, .header__link .icon:focus-within::before {color: #ddd;}
@@ -328,6 +356,7 @@ select.selectCustom__select:active, select.selectCustom__select:hover {backgroun
 	.dropdown--user .dropdown__item a:hover {background: #1a1a1a; color: skyblue;}
 	.menu__item.is-active .menu__list {background: #333;}
 	.menu__item.is-active .menu__item a:hover {background: #1a1a1a; color: skyblue;}
+	.authorMain__img .book-cover {background: #3a3a3a;}
 }
 
 @media (min-width: 1264px) {
