@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LubimyCzytac Dark Theme
 // @namespace    http://tampermonkey.net/
-// @version      0.0.7
+// @version      0.0.8
 // @description  Dark Theme for LubimyCzytac
 // @author       Binarny
 // @match        https://lubimyczytac.pl/*
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
 .btn-secondary, .send-report-a-bug {background-color: #333 !important;}
 .btn-secondary:hover:not(.btn--filters), .send-report-a-bug:hover:not(.btn--filters), .btn-secondary:focus:not(.btn--filters), .send-report-a-bug:focus:not(.btn--filters) {background-color: #111 !important;}
 .btnSocialsBottom .btn-link {color: #ddd;}
-.card {background-color: #333;}
+.card {background-color: #2a2a2a;}
 .chart .progress {background-color: #333;}
 .comments-list .comment .comment-cloud .date {color: #ddd;}
 .comments-list .comment .comment-cloud {background: #444;}
@@ -344,6 +344,23 @@ select.selectCustom__select:active, select.selectCustom__select:hover {backgroun
 .news-and-announcements {background: #444;}
 .news-and-announcements .featured-book {background: #555;}
 .news-and-announcements__mobileHide .small-book .small-book-title {color: skyblue;}
+
+.tooltip.bs-tooltip-auto[x-placement^="top"] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {border-color: #2b5390 rgba(0,0,0,0) rgba(0,0,0,0);}
+.tooltip.bs-tooltip-auto[x-placement^="bottom"] .arrow::before, .tooltip.bs-tooltip-bottom .arrow::before {border-color: #2b5390 rgba(0,0,0,0) rgba(0,0,0,0);}
+.filtr__wrapItems--alphabetical__item {background: #ff670050 !important;}
+.filtr__wrapItems--alphabetical__item:hover, .filtr__wrapItems--alphabetical__item:focus, .filtr__wrapItems--alphabetical__item.filterChecked {background: #2b5390 !important;}
+.btn-outline-primary:hover {background-color: #2b5390; border-color: #2b5390;}
+.jsr_label {color: #ddd;}
+.datepicker table tr td span.focused, .datepicker table tr td span:hover {background: #222;}
+.datepicker .datepicker-switch:hover, .datepicker .next:hover, .datepicker .prev:hover, .datepicker tfoot tr th:hover {background: #222;}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {color: #ddd;background-color: #2b5390;border-color: initial;}
+.forumUsers__commentAdd__write__bottom__btn.btn, .forumUsers__commentAdd__write__bottom__btn.cancel-report-a-bug, .forumUsers__commentAdd__write__bottom__btn.send-report-a-bug, body.series_addbookstoshelf .forumUsers__commentAdd__write__bottom__btn.btn--serie-save {background: #222;}
+.forumUsers__commentAdd__write__bottom__btn.btn:hover, .forumUsers__commentAdd__write__bottom__btn.cancel-report-a-bug:hover, .forumUsers__commentAdd__write__bottom__btn.send-report-a-bug:hover, body.series_addbookstoshelf .forumUsers__commentAdd__write__bottom__btn.btn--serie-save:hover {background: #ff670050;}
+.newsCats__btn {background: #2b5390;}
+.newsCats__btn:hover {background: #ff670050;}
+.tile--hero .tile__cta:focus, .tile--hero .tile__cta:hover {background-color: #ffffff50;}
+.bgGrey {background-color: #444;}
+.help__sidebarLeft__item {background: #2a2a2a;}
 
 @media (min-width: 768px) {
 	.searchbox__button:hover::before, .searchbox__button:focus::before, .searchbox__button:focus-within::before {color: #ddd;}
