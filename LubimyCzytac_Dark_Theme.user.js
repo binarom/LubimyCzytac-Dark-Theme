@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LubimyCzytac Dark Theme
 // @namespace    http://tampermonkey.net/
-// @version      0.0.8
+// @version      0.0.9
 // @description  Dark Theme for LubimyCzytac
 // @author       Binarny
 // @match        https://lubimyczytac.pl/*
@@ -362,6 +362,46 @@ select.selectCustom__select:active, select.selectCustom__select:hover {backgroun
 .bgGrey {background-color: #444;}
 .help__sidebarLeft__item {background: #2a2a2a;}
 
+.lcaward-header {background: #333;}
+.lcaward-header__logo {filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(170deg) brightness(103%) contrast(104%);}
+.lcaward-previous-editions {background: #333;}
+.lcaward-partners {background: #333;}
+.lcaward-partner__img {filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(170deg) brightness(103%) contrast(104%);}
+.lcaward-counter--countdown {background: #333;}
+.lcaward-counter__text {color: #d3d3d3;}
+.lcaward-previous-editions__cta:hover, .lcaward-previous-editions__cta:focus {background-color: #ffffff50; color: #fffb00;}
+.comment__spam {background: #222c;}
+.lcaward-articles {background: #333;}
+.lcaward__instruction {background: #333;}
+.nav-tabs {background: #333;}
+.nav-tabs .tab a {border-bottom: 10px solid #cdcdcd; color: #cdcdcd;}
+.lcAward__tooltip {filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(170deg) brightness(103%) contrast(104%);}
+.category-tile__name, .custom-category__title {color: #ddd;}
+.category-tile__cta:hover, .category-tile__cta:focus {background-color: #fffb;}
+.lcaward-counter__title {color: #888;}
+.lcaward-books-list {background: #333;}
+.lcaward-books-list__cover .small-book-title, .lcaward-books-list__cover .small-book-author {color: #c4c4c4;}
+.lcaward-category-bottom {background: #333;}
+.lcaward__votes-account {background: #333;}
+.footer__popular a {color: inherit;}
+.modal .btn-outline-primary.active {color: skyblue !important;}
+.dropdown__content {background: #333;}
+.dropdown__cta--primary {background-color: #ff550050;}
+.dropdown__cta--primary:hover, .dropdown__cta--primary:focus {background-color: #ffffff20;}
+.dropdown__cta:not(.dropdown__cta--primary):hover, .dropdown__cta:not(.dropdown__cta--primary):focus {background-color: #ff550050;}
+.dropdown.is-active .dropdown__open {background-color: #ffddcc50;}
+.btn--bookshelf-add-new {background: #ff670050;}
+.small-biblio {color: skyblue;}
+.lcAward__modal .btn.lcAward__btnAccent--1, .lcAward__modal body.series_addbookstoshelf .lcAward__btnAccent--1.btn--serie-save, body.series_addbookstoshelf .lcAward__modal .lcAward__btnAccent--1.btn--serie-save, .lcAward__modal .lcAward__btnAccent--1.cancel-report-a-bug, .lcAward__modal .lcAward__btnAccent--1.send-report-a-bug {background: #e46e0d90;}
+.lcAward__modal .btn.lcAward__btnAccent--2:hover, .lcAward__modal body.series_addbookstoshelf .lcAward__btnAccent--2.btn--serie-save:hover, body.series_addbookstoshelf .lcAward__modal .lcAward__btnAccent--2.btn--serie-save:hover, .lcAward__modal .lcAward__btnAccent--2.cancel-report-a-bug:hover, .lcAward__modal .lcAward__btnAccent--2.send-report-a-bug:hover, .lcAward__modal .btn.lcAward__btnAccent--2:focus, .lcAward__modal body.series_addbookstoshelf .lcAward__btnAccent--2.btn--serie-save:focus, body.series_addbookstoshelf .lcAward__modal .lcAward__btnAccent--2.btn--serie-save:focus, .lcAward__modal .lcAward__btnAccent--2.cancel-report-a-bug:focus, .lcAward__modal .lcAward__btnAccent--2.send-report-a-bug:focus {background: #e46e0d90;}
+.lcAward__modal .form__label, .lcAward__modal .form__checkboxTitle {color: #ddd;}
+.lcAward__modal .form__input, .lcAward__modal .report-a-bug-form-container input, .report-a-bug-form-container .lcAward__modal input {color: #e3d3d3; border-color: #ddd;}
+.lcAward__modal .btn.lcAward__btnAccent, .lcAward__modal body.series_addbookstoshelf .lcAward__btnAccent.btn--serie-save, body.series_addbookstoshelf .lcAward__modal .lcAward__btnAccent.btn--serie-save, .lcAward__modal .lcAward__btnAccent.cancel-report-a-bug, .lcAward__modal .lcAward__btnAccent.send-report-a-bug {background: #e46e0d90;}
+.authorMain__author {color: #ddd !important;}
+.btn-item-edit {background: #333;}
+
+
+
 @media (min-width: 768px) {
 	.searchbox__button:hover::before, .searchbox__button:focus::before, .searchbox__button:focus-within::before {color: #ddd;}
 	.header__link .icon:hover::before, .header__link .icon:focus::before, .header__link .icon:focus-within::before {color: #ddd;}
@@ -376,9 +416,16 @@ select.selectCustom__select:active, select.selectCustom__select:hover {backgroun
 	.authorMain__img .book-cover {background: #3a3a3a;}
 }
 
+@media (max-width: 991.98px) {
+	.book .title-container h1 {color: skyblue;}
+}
+
 @media (min-width: 1264px) {
 	.user--button .user__name {color: #ddd;} .user--button::after {color: #ddd;}
 }
+
+
+
 
 	`);
 });
