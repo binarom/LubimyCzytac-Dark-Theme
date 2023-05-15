@@ -1,436 +1,460 @@
 /* ==UserStyle==
-@name         LubimyCzytac Dark Theme
-@version      20230217.21.30
+@name         lubimyczytac.pl Dark Theme
+@version      20230428.22.19
 @namespace    userstyles.world/user/binarny
 @description  Dark Theme for LubimyCzytac.pl
 @author       binarny
 @license      CC Zero
 ==/UserStyle== */
-
 @-moz-document domain("lubimyczytac.pl") {
-#randomLibrary {display: none;}
-#searchMoreFriends {background-image: none !important; background-color: #252525;}
-#searchtype {background-color: #222;}
-.addBookHelpers__text {color: #ddd;}
-.addBookInputs__label {color: #ddd;}
-.addBookTitle {background: #444;}
-.add-opinion .your-opinion .avatar-container {background: #444;}
-.add-opinion .your-opinion {background: #444;}
-.add-opinion .your-opinion--down::before {border-color:#444 rgba(0,0,0,0) rgba(0,0,0,0);}
-.around-book__text {color: #ddd;}
-.around-book-news__small {background: #222;}
-.authorAllBooks__singleExtraPrice {color: #ddd;}
-.authorAllBooks__singleTextSeries {color: #ddd;}
-.authorAllBooks__singleTextShelfLeft {color: #ddd;}
-.authorAllBooks__sortTitle {color: #ddd;}
-.beforeYouAddBook {background: #333; padding-bottom: 10px;}
-.beforeYouAddBook--white {background: #333; color: #ddd;}
-.bgBlue {background: #2b5390; color: #eee;}
-.bg-white {background-color: #333 !important;}
-.book .btn.read-action, .book .read-action.cancel-report-a-bug, .book .read-action.send-report-a-bug, .book body.series_addbookstoshelf .read-action.btn--serie-save, body.series_addbookstoshelf .book .read-action.btn--serie-save {background: #333; color: #ccc!important;}
-.book .btn-collapsed--details::after {background: none;}
-.book .rating {background: #333;}
-.book {background: #3a3a3a;}
-.book-cover__icon__item {background: #333;}
-.book-cover__icons-hld {background: linear-gradient(to left, #333, #333, transparent);}
-.book-menu .btn .button-imgIco, .book-menu .cancel-report-a-bug .button-imgIco, .book-menu .send-report-a-bug .button-imgIco, .book-menu body.series_addbookstoshelf .btn--serie-save .button-imgIco, body.series_addbookstoshelf .book-menu .btn--serie-save .button-imgIco {color: white;}
-.book-menu .btn span.icon, .book-menu .cancel-report-a-bug span.icon, .book-menu .send-report-a-bug span.icon, .book-menu body.series_addbookstoshelf .btn--serie-save span.icon, body.series_addbookstoshelf .book-menu .btn--serie-save span.icon {color: #ddd;}
-.book-menu .btn, .book-menu body.series_addbookstoshelf .btn--serie-save, body.series_addbookstoshelf .book-menu .btn--serie-save, .book-menu .cancel-report-a-bug, .book-menu .send-report-a-bug {background: #333 !important; color: skyblue !important;}
-.book-menu .btn, .book-menu body.series_addbookstoshelf .btn--serie-save, body.series_addbookstoshelf .book-menu .btn--serie-save, .book-menu .cancel-report-a-bug, .book-menu .send-report-a-bug {color: white; background: #444;}
-.book-menu {background: #333 !important;}
-.btn-collapsed--gradient::after {background: none;}
-.btn-link {color: lightblue;}
-.btn-primary, .cancel-report-a-bug, .send-report-a-bug, body.series_addbookstoshelf .btn--serie-save {color: #ddd;}
-.btn-secondary, .send-report-a-bug {background-color: #333 !important;}
-.btn-secondary:hover:not(.btn--filters), .send-report-a-bug:hover:not(.btn--filters), .btn-secondary:focus:not(.btn--filters), .send-report-a-bug:focus:not(.btn--filters) {background-color: #111 !important;}
-.btnSocialsBottom .btn-link {color: #ddd;}
-.card {background-color: #2a2a2a;}
-.chart .progress {background-color: #333;}
-.comments-list .comment .comment-cloud .date {color: #ddd;}
-.comments-list .comment .comment-cloud {background: #444;}
-.comments-list .comment .comment-cloud::before {border-color: rgba(0,0,0,0) #444 rgba(0,0,0,0) rgba(0,0,0,0);}
-.dashboard__challenge__stats {background: #444;}
-.dashboard__challenge__take {background: #444;}
-.dashBoardAccount__friends__info {color: inherit;}
-.dashBoardAccount__introFourth {color: lightblue;}
-.dashBoardAccount__profilInfoStatusLeft {color: lightblue;}
-.dashBoardAccount__statsBgDark {background: #444;}
-.dashBoardAccount__statsBgLightBlue {background: #111;}
-.dashBoardActivity__singleInfoReviewInside {background: #444;}
-.dashBoardActivity__singleInfoReviewInside::before {border-color: rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0) #444;}
-.dashBoardActivity__singleTopInfo a {color: lightskyblue;}
-.datepicker .datepicker-switch:hover, .datepicker .next:hover, .datepicker .prev:hover, .datepicker tfoot tr th:hover {background: #222;}
-.datepicker table tr td span.focused, .datepicker table tr td span:hover {background: #222; color: orange;}
-.dropdown-menu {background-color: #333; color: #ddd;}
-.dropdown--user a {color: #ddd;}
-.error404__right {filter: invert(80%) hue-rotate(170deg);}
-.filtr__button {color: skyblue;}
-.filtr__itemTitle {color: #ddd;}
-.filtr__title {color: #ddd;}
-.form__checkboxTitle {color: #fff;}
-.form__input, .report-a-bug-form-container input {color: #ddd;}
-.form__label {color: #fff;}
-.form__photo {background: #3a3a3a;}
-.form__photoMiddle {color: beige;}
-.form__text  {color: #ddd;}
-.form-control {background-color: #333; color: #ddd;}
-.form-control:focus {color: orange; background-color: #111;}
-.forumPosts__bodyGroup {color: #ddd;}
-.forumPosts__bodyGroupLink {color: skyblue;}
-.forumPosts__bodyItem--notifications {background: #272727;}
-.forumPosts__bodyItem--notifications.is-new {background: rgba(44, 138, 86, 0.25);}
-.forumPosts__header--jobPage {background: #444;}
-.forumUsers__commentAdd__write__textarea {background: #3f3f3f;}
-.greyBg {background-color: #131313;}
-.header {background: #333;}
-.header__primary {background: #333;}
-.header__secondary {background: #333;}
-.img-centered-background, .quotes__details__col .small-book-cover, .quotes__details__col .authorAllBooks__singleImgWrap {background-color: #131313;}
-.is-search-open .header__wrapper {background: #333;}
-.librabryBookshelf__button {color: skyblue;}
-.libraryTop__bg {background-color: #444;}
-.listFiltered-hld {background: #333;}
-.list-group-item {background-color: #333;}
-.list-group-item {color: #ddd;}
-.listLibrary__dropDownList {background: #262626;}
-.listLibrary__ratingAll {color: #ddd;}
-.listLibrary__ratingStars {color: #ddd;}
-.listLibrary__ratingText {color: #dadada;}
-.logo__image {filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(170deg) brightness(103%) contrast(104%);}
-.mapContainer__detailsListItem:hover, .mapContainer__detailsListItem:focus {background: #222;}
-.mapContainer__detailsListItem__text {color: #ddd;}
-.menu__item a {color: #cdf;}
-.messages-hld .inbox-head {background: #262626;}
-.messages-hld .mail-box .lg-side {background: #444;}
-.messages-hld .mail-box .sm-side {background: #222;}
-.messages-hld .mail-option .chk-all, .messages-hld .mail-option .btn-group a.btn, .messages-hld .mail-option .btn-group a.cancel-report-a-bug, .messages-hld .mail-option .btn-group a.send-report-a-bug, .messages-hld .mail-option .btn-group body.series_addbookstoshelf a.btn--serie-save, body.series_addbookstoshelf .messages-hld .mail-option .btn-group a.btn--serie-save {background: #242424;}
-.modal .modal-header {background-color: #103b79; color: #fff;}
-.modal-content {background-color: #222;}
-.newsCats__date {color: #ddd;}
-.newsRelated__bg--light {background: #3d3d3d;}
-.official-review {background-color: inherit;}
-.official-review__titleTop {background: #444;}
-.official-review-home__dateBottom {color: #ddd;}
-.official-review-home__grey--blue {background: #444;}
-.official-review-home__nick {color: skyblue;}
-.official-review-home__review::before {background: #444;}
-.official-review-home__review--blue {background: #444;}
-.official-review-home__text--blue {color: #ddd;}
-.official-reviews-tile .official-reviews-tile__intro {color: #ccc;}
-.official-reviews-tile .official-reviews-tile__nick {color: #cdcdcd;}
-.official-reviews-tile .official-reviews-tile__title {color: #dedede;}
-.official-reviews-tile .official-reviews-tile__top {color: #bbb;}
-.official-reviews-tile .official-reviews-tile__top span {color: #dedede;}
-.opinion .rating, .opinion .your-rating {background: #444}
-.paginationList__input {background-color: #333; color: #ddd; }
-.popular-books {background: #444;}
-.preStyledForm__input {color: #eeb;}
-.profilInfo__libraryTop__bg_grey {background-image: none !important;}
-.profilReview__bg {background: #444;}
-.quotes .quote {background-image: none;}
-.quotes .quote.no-quotes .card-body h3 {color: lightskyblue;}
-.quotes .quote.no-quotes {background: none;}
-.quotes .quote.no-quotes {background-image: none !important;}
-.quotes .quote.no-quotes {background-image: none;}
-.registerProcess input:-webkit-autofill, .registerProcess input:-webkit-autofill:hover, .registerProcess input:-webkit-autofill:active, .registerProcess input:-webkit-autofill:focus {background-color: #444 !important; color: #ccc !important; -webkit-box-shadow: 0 0 0 1000px #ededed inset !important; -webkit-text-fill-color: #ccc !important;}
-.registerProcess__left {background-color: #444;}
-.registerProcess__leftOr span {background-color: #444;}
-.related-content {background-color: #444;}
-.report-a-bug-form-container {background-color: #444;}
-.result-tile__wrapper {color: #ddd;}
-.result-tile--no-image .result-tile__wrapper .result-tile__image-wrapper {background-color: #222;}
-.searchbox {background: #3a3a3a;}
-.searchbox__button {background: #222;}
-.searchbox__cancel:hover, .searchbox__cancel:focus {color: #ddd;}
-.searchbox__input {background: #222; border-color: #222;}
-.searchbox__input {color: white;}
-.searchbox__input:hover, .searchbox__input:focus {border-color: black;}
-.searchUserResults__listItems {background: #aaa; box-shadow: none;}
-.small-book .small-book-author {color: #ddd;}
-.small-book .small-book-title {color: lightskyblue;}
-.social-square .social-square__header {color: #ddd;}
-.social-square__avatar {display: none;}
-.societyContainer-hld .society-item {color: skyblue;}
-.societyContainer-hld {background-color: #131313;}
-.suggestions::after {background: none;}
-.suggestions__cta:hover, .suggestions__cta:focus {background-color: #333;}
-.table-inbox {color: #ddd;}
-.tabsNav__sortSelectInside, .report-a-bug-form-container select {background: #333;}
-.tabsNav__sortSelectInside, .report-a-bug-form-container select {color: #ddd;}
-.tagify__input::before {color: #ccc;}
-.t-blue, .blue {color: lightskyblue;}
-.text-dark {color: #c7c7a9 !important;}
-.text-dark {color: #c7c7a9 !important;}
-.t-grey, .grey {color: #ddd;}
-.tile__author {color: #ddd;}
-.tile__intro, .tile__title {color: #ddd;}
-a {color: lightskyblue;}
-a:link {color: lightskyblue;}
-body {background-color: #333; color: #ddd;}
-body::-webkit-scrollbar {background: #353535;}
-body:not(.cms_gettext) .quotes .quote .card-body .card__bottom-btnLight, body:not(.cms_gettext) .card__bottom-btnLight {color: #ddd}
-body:not(.cms_gettext) .quotes .quote .card-footer.card-footer--light {background: #444;}
-body:not(.cms_gettext) .quotes .quote {background: #444;}
-button.menu__button {color: white;}
-div.comment-cloud__body p {color: #000;}
-div.comment-cloud__body p {color: #ddd;}
-div.dashBoardAccount__friends__wrap {background: #444;}
-div.dashBoardAccount__intro {background: #333;}
-div.dashBoardAccount__introFourth {background: #444;}
-div.dashBoardAccount__libraryItemsHld {background: #444;}
-div.dashBoardActivity__singleInfoBookSeries {color: #ddd;}
-div.dashBoardActivity__singleTopInfo {color:#ddd;}
-div.dashBoardActivity__undeTitle {color: #ddd;}
-div.overlay {background: #333;}
-h2.dashBoardAccount__title {color: lightskyblue;}
-input {background-color: #222;}
-input {color: white;}
-messages-hld ul.inbox-nav li a {color: #ccc;}
-.around-book-news__smallGrey {background-color: #161616;}
-.around-book__tag {background: #30578e;}
-.container-fluid {background: #1a1a1a;}
-.cover-tile .cover-tile__author, .cover-tile .cover-tile__title {color: #b4b4b4;}
-.info-icon {background: #2b5390;}
-.our-reviewers .our-reviewers__col {color: #bd4000;}
-.our-reviewers .our-reviewers__count {color: #aaa;}
-.our-reviewers .our-reviewers__nick {color: #c4c4c4;}
-.our-reviewers .our-reviewers__status {color: #bbb;}
-.report-a-bug-form h5 {background: #2b5390;}
-.result-tile__badge {background-color: #602000;}
-.small-book .small-book-cover .rating {background: #2b5390;}
-.small-book-details {background: #2b5390;}
-.suggestions__cta {background-color: #ff550050;}
-.tabs .tabs__item {color: #eee;}
-.tile--category-13 .tile__category {background: rgba(60,20,20,.8);}
-.tile__comments {color: #b1b1b1;}
-body.author_gettext .small-book-details.small-book-details-rating {background: #2b5390;}
-.community-most-active-tile .community-most-active-tile__nick {color: #c3c3c3;}
-.community-most-active-tile .community-most-active-tile__num {color: #c3c3c3;}
-.forum-most-commented-tile .forum-most-commented-tile__bottom {background: #1a1a1a;}
-.forum-most-commented-tile .forum-most-commented-tile__nick {color: #c3c3c3;}
-.forum-most-commented-tile .forum-most-commented-tile__post-intro {color: #c3c3c3;}
-.forum-most-commented-tile .forum-most-commented-tile__title {color: #eee;}
-.forumPosts__messagesList__badge {background: #ff670050;}
-.latest-activites .latest-activites__secondary {background: #1a1a1a;}
-.reviews-tile--featured::before {background-color: #1a1a1a;}
-.reviews-tile__content {color: #eee;}
-.reviews-tile__reviewer {color: #eee;}
-.reviews-tile__time {color: #bababa;}
-.social-buttons .social-button--counter {color: #bababa;}
-.video-tile__date {color: #bababa;}
-.video-tile__title {color: #ddd;}
-.quote-tile::before {color: #272727;}
-.quote-tile--featured::before {color: #1a1a1a;}
-.challenge-taken__title {color: #eee;}
-.challenge-taken .challenge__progress {background: #1a1a1a;}
-.challenge-taken .challenge__counter {color: #eee;}
-.challenge-taken__info {color: #eee;}
-.challenge__sidebar-heading {color: #eee; background: #1a1a1a;}
-.challenge__sidebar-users {background: #1a1a1a;}
-.challenge__nick {color: #eee;}
-.challenge__time {color: #bababa;}
-.calendar__anniversary--birth {background: #184d0a;}
-.calendar__input {background: #333; color: #eee;}
-.calendar__date .calendar__button, .calendar__date .calendar__button--datepicker {background: #333;}
-.challenge__progress {background: #333;}
-.society_whrite-slider-hld {background: #1a1a1a;}
-.society_whrite-slider-hld .society-item {color: #aaa;}
-.tooltip-inner {background-color:#2b5390;}
-.bs-tooltip-top .arrow::before,.bs-tooltip-auto[x-placement^=top] .arrow::before{top:0;border-width:.4rem .4rem 0;border-top-color:#2b5390;}
-.bs-tooltip-right .arrow::before,.bs-tooltip-auto[x-placement^=right] .arrow::before{right:0;border-width:.4rem .4rem .4rem 0;border-right-color:#2b5390;}
-.bs-tooltip-bottom .arrow::before,.bs-tooltip-auto[x-placement^=bottom] .arrow::before{bottom:0;border-width:0 .4rem .4rem;border-bottom-color:#2b5390;}
-.bs-tooltip-left .arrow::before,.bs-tooltip-auto[x-placement^=left] .arrow::before{left:0;border-width:.4rem 0 .4rem .4rem;border-left-color:#2b5390;}
-.review-home__item {background: #1a1a1a;}
-.review-home__item .review-home__reviewer.review-home__reviewer--blue {background: #182e51;}
-.official-review-home__tag {background: #2b5390;}
-.official-review-home__review {background: #1a1a1a;}
-.review-home__item .review-home__date {color: #afb7c4;}
-.forumSection__itemsHld {background: #1a1a1a;}
-.forumSection__itemName {color: skyblue;}
-.forumSection__itemPosts {color: #aaa;}
-.bgLightBlue {background-color: #1a1a1a;}
-.forumUsers__body__pinned-hld--bg {background: #1a1b1c;}
-.forumUsers__header__title {color: #15c8ff;}
-.communityHeader {background: #444;}
-.forumUsers__body__perWeek {color: #ddd;}
-.forumUsers__header__title {color: #ddd;}
-.lightTabs-hld {background: #1a1a1a;}
-.lightTabs__item .nav-link {color: skyblue;}
-.forumUsers__body__pinnedItem a {color: skyblue;}
-.forumUsers__body__desc {color: #aaa;}
-.forumUsers__search-hld .topForum__input {color: #ddd;}
-.forumUsers__header {color: #aaa;}
-.profilReview__info {background: #2b5390;}
-.category-tags span.tag {background: #2b5390;}
-.book .title-container::before {color: #3a3a3a;}
-.book .title-container {background-color: #3a3a3a;}
-.modal .read-action {background: #333;}
-.modal .read-action.active {background: #ff500020;}
-.modal .add-opinion .your-opinion textarea {background: #111; color: #eee;}
-.modalAddToLib__another-shelves-hld::before {background: none;}
-.sliderHtml .sliderHtml__btn {background: #1a1a1a;}
-.yourChallenge__percentInfo span {color: skyblue;}
-.dashBoardActivity__singleInfoReviewInside {color: #ddd;}
-.form__switchSlider {background-color: #444;}
-.form__switchInput:checked + .form__switchSlider {background-color: #18698a;}
-.randomButton {color: skyblue;}
-.btn-primary:hover, .cancel-report-a-bug:hover, .send-report-a-bug:hover, body.series_addbookstoshelf .btn--serie-save:hover, .btn-primary:focus, .cancel-report-a-bug:focus, .send-report-a-bug:focus, body.series_addbookstoshelf .btn--serie-save:focus {background: #ff670050;}
-.report-a-bug-container .report-a-bug {background: #621f00;}
-.listLibrary__dropDownBtn.listLibrary--btn-secondary {background-color: #ff670050;}
-.book-cover__icon__item:hover {background: #2b5390;}
-.carousel .carousel__cta:focus, .carousel .carousel__cta:hover {background-color: #ff550050;}
-.latest-articles__cta:focus, .latest-articles__cta:hover {background-color: #ff550050;}
-.squiggle__cta:focus, .squiggle__cta:hover {background-color: #ff550050;}
-.popular-books .popular-books__cta:focus, .popular-books .popular-books__cta:hover {background-color: #ff550050;}
-.reviews-tile--featured .reviews-tile__cta:focus, .reviews-tile--featured .reviews-tile__cta:hover {background-color: #ff550050;}
-.reviews-featured-list__cta:focus, .reviews-featured-list__cta:hover {background-color: #ff550050;}
-.latest-activites .latest-activites__cta:focus, .latest-activites .latest-activites__cta:hover {background-color: #ff550050;}
-.reviews-featured-list__cta:focus, .reviews-featured-list__cta:hover {background-color: #ff550050;}
-.challenge__cta {background-color: #ff550050;}
-.challenge__cta:focus, .challenge__cta:hover {background-color: #ffffff50;}
-.favorite-quotes__cta:focus, .favorite-quotes__cta:hover {background-color: #ffffff50;}
-.menu button {color: #ddd;}
-.menu.is-active .menu__content {background: #333;}
-.menu button .icon.icon-menu, .menu button .icon.icon-close {color: #ddd;}
-.suggestions__item a {color: #ddd;}
-.newsBoxBook__fans {color: skyblue;}
-.btn, .cancel-report-a-bug, .send-report-a-bug, body.series_addbookstoshelf .btn--serie-save {color: #cdcdcd;}
-select.selectCustom__select:active, select.selectCustom__select:hover {background: #333;}
-.btn-scroll-up:hover {background-color: #ff670050;}
-.addBookAuthorsList {background: #222;}
-.addBookTitleList {background: #222;}
-.addBookTitleList__top {background: #1a1a1a;}
-.addBookTitleList__item:hover, .addBookTitleList__item:focus {background: #1a1a1a;}
-.addBookTitleList__year {color: #ddd;}
-.form__button {color: skyblue;}
-.cyclesDetails__header {background-color: #3a3a3a;}
-.cyclesDetails .rating {background: #333;}
-.link-name {color: skyblue;}
-.authorMain__rating {background: #333;}
-.authorMain__authorLink {color: skyblue;}
-.authorMain__authorLinkText span {color: #ddd;}
-.authorMain__authorListItem {color: #ddd;}
-.authorMain__ratingTitle {color: #ddd;}
-.authorMain__ratingListItem {color: #ddd;}
-.authorMain__ratingFansCount {color: #ddd;}
-.btn-primary:not(:disabled):not(.disabled):active, .cancel-report-a-bug:not(:disabled):not(.disabled):active, .send-report-a-bug:not(:disabled):not(.disabled):active, body.series_addbookstoshelf .btn--serie-save:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .cancel-report-a-bug:not(:disabled):not(.disabled).active, .send-report-a-bug:not(:disabled):not(.disabled).active, body.series_addbookstoshelf .btn--serie-save:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle, .show > .dropdown-toggle.cancel-report-a-bug, .show > .dropdown-toggle.send-report-a-bug, body.series_addbookstoshelf .show > .dropdown-toggle.btn--serie-save {background-color: #2b5390; border-color: #2b5390;}
-.dashboardUserList__dropdown-menu .dropdown-item {color: skyblue;}
-.dropdown-item:hover, .dropdown-item:focus {background-color: #111;}
-.categoryDescription__boxDescription {color: #ddd;}
-.communityRankingList__item__header {color: skyblue;}
-.communityRanking__listSmall__header {background: #2b5390;}
-.communityRankingList__item__users {background: #222;}
-.communityRanking__listSmall__body li {color: #ddd;}
-.communityRanking__listSmall__body li a {color: #ddd;}
-.communityRanking__listSmall__body li:hover {background: #111;}
-.authorSeries__bg {background: #444;}
-.authorSeries__bookMore:hover {background: #ffffff50;}
-.popularAuthorsInCategory__withoutTop {background: #444; background-image: none;}
-.progress {background-color: #1a1a1a;}
-.news-and-announcements {background: #444;}
-.news-and-announcements .featured-book {background: #555;}
-.news-and-announcements__mobileHide .small-book .small-book-title {color: skyblue;}
-.tooltip.bs-tooltip-auto[x-placement^="top"] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {border-color: #2b5390 rgba(0,0,0,0) rgba(0,0,0,0);}
-.tooltip.bs-tooltip-auto[x-placement^="bottom"] .arrow::before, .tooltip.bs-tooltip-bottom .arrow::before {border-color: #2b5390 rgba(0,0,0,0) rgba(0,0,0,0);}
-.filtr__wrapItems--alphabetical__item {background: #ff670050 !important;}
-.filtr__wrapItems--alphabetical__item:hover, .filtr__wrapItems--alphabetical__item:focus, .filtr__wrapItems--alphabetical__item.filterChecked {background: #2b5390 !important;}
-.btn-outline-primary:hover {background-color: #2b5390; border-color: #2b5390;}
-.jsr_label {color: #ddd;}
-.datepicker table tr td span.focused, .datepicker table tr td span:hover {background: #222;}
-.datepicker .datepicker-switch:hover, .datepicker .next:hover, .datepicker .prev:hover, .datepicker tfoot tr th:hover {background: #222;}
-.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {color: #ddd;background-color: #2b5390;border-color: initial;}
-.forumUsers__commentAdd__write__bottom__btn.btn, .forumUsers__commentAdd__write__bottom__btn.cancel-report-a-bug, .forumUsers__commentAdd__write__bottom__btn.send-report-a-bug, body.series_addbookstoshelf .forumUsers__commentAdd__write__bottom__btn.btn--serie-save {background: #222;}
-.forumUsers__commentAdd__write__bottom__btn.btn:hover, .forumUsers__commentAdd__write__bottom__btn.cancel-report-a-bug:hover, .forumUsers__commentAdd__write__bottom__btn.send-report-a-bug:hover, body.series_addbookstoshelf .forumUsers__commentAdd__write__bottom__btn.btn--serie-save:hover {background: #ff670050;}
-.newsCats__btn {background: #2b5390;}
-.newsCats__btn:hover {background: #ff670050;}
-.tile--hero .tile__cta:focus, .tile--hero .tile__cta:hover {background-color: #ffffff50;}
-.bgGrey {background-color: #444;}
-.help__sidebarLeft__item {background: #2a2a2a;}
-.lcaward-header {background: #333;}
-.lcaward-header__logo {filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(170deg) brightness(103%) contrast(104%);}
-.lcaward-previous-editions {background: #333;}
-.lcaward-partners {background: #333;}
-.lcaward-partner__img {filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(170deg) brightness(103%) contrast(104%);}
-.lcaward-counter--countdown {background: #333;}
-.lcaward-counter__text {color: #d3d3d3;}
-.lcaward-previous-editions__cta:hover, .lcaward-previous-editions__cta:focus {background-color: #ffffff50; color: #fffb00;}
-.comment__spam {background: #222c;}
-.lcaward-articles {background: #333;}
-.lcaward__instruction {background: #333;}
-.nav-tabs {background: #333;}
-.nav-tabs .tab a {border-bottom: 10px solid #cdcdcd; color: #cdcdcd;}
-.lcAward__tooltip {filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(170deg) brightness(103%) contrast(104%);}
-.category-tile__name, .custom-category__title {color: #ddd;}
-.category-tile__cta:hover, .category-tile__cta:focus {background-color: #fffb;}
-.lcaward-counter__title {color: #888;}
-.lcaward-books-list {background: #333;}
-.lcaward-books-list__cover .small-book-title, .lcaward-books-list__cover .small-book-author {color: #c4c4c4;}
-.lcaward-category-bottom {background: #333;}
-.lcaward__votes-account {background: #333;}
-.footer__popular a {color: inherit;}
-.modal .btn-outline-primary.active {color: skyblue !important;}
-.dropdown__content {background: #333;}
-.dropdown__cta--primary {background-color: #ff550050;}
-.dropdown__cta--primary:hover, .dropdown__cta--primary:focus {background-color: #ffffff20;}
-.dropdown__cta:not(.dropdown__cta--primary):hover, .dropdown__cta:not(.dropdown__cta--primary):focus {background-color: #ff550050;}
-.dropdown.is-active .dropdown__open {background-color: #ffddcc50;}
-.btn--bookshelf-add-new {background: #ff670050;}
-.small-biblio {color: skyblue;}
-.lcAward__modal .btn.lcAward__btnAccent--1, .lcAward__modal body.series_addbookstoshelf .lcAward__btnAccent--1.btn--serie-save, body.series_addbookstoshelf .lcAward__modal .lcAward__btnAccent--1.btn--serie-save, .lcAward__modal .lcAward__btnAccent--1.cancel-report-a-bug, .lcAward__modal .lcAward__btnAccent--1.send-report-a-bug {background: #e46e0d90;}
-.lcAward__modal .btn.lcAward__btnAccent--2:hover, .lcAward__modal body.series_addbookstoshelf .lcAward__btnAccent--2.btn--serie-save:hover, body.series_addbookstoshelf .lcAward__modal .lcAward__btnAccent--2.btn--serie-save:hover, .lcAward__modal .lcAward__btnAccent--2.cancel-report-a-bug:hover, .lcAward__modal .lcAward__btnAccent--2.send-report-a-bug:hover, .lcAward__modal .btn.lcAward__btnAccent--2:focus, .lcAward__modal body.series_addbookstoshelf .lcAward__btnAccent--2.btn--serie-save:focus, body.series_addbookstoshelf .lcAward__modal .lcAward__btnAccent--2.btn--serie-save:focus, .lcAward__modal .lcAward__btnAccent--2.cancel-report-a-bug:focus, .lcAward__modal .lcAward__btnAccent--2.send-report-a-bug:focus {background: #e46e0d90;}
-.lcAward__modal .form__label, .lcAward__modal .form__checkboxTitle {color: #ddd;}
-.lcAward__modal .form__input, .lcAward__modal .report-a-bug-form-container input, .report-a-bug-form-container .lcAward__modal input {color: #e3d3d3; border-color: #ddd;}
-.lcAward__modal .btn.lcAward__btnAccent, .lcAward__modal body.series_addbookstoshelf .lcAward__btnAccent.btn--serie-save, body.series_addbookstoshelf .lcAward__modal .lcAward__btnAccent.btn--serie-save, .lcAward__modal .lcAward__btnAccent.cancel-report-a-bug, .lcAward__modal .lcAward__btnAccent.send-report-a-bug {background: #e46e0d90;}
-.authorMain__author {color: #ddd !important;}
-.btn-item-edit {background: #333;}
-@media (min-width: 768px) {
-	.searchbox__button:hover::before, .searchbox__button:focus::before, .searchbox__button:focus-within::before {color: #ddd;}
-	.header__link .icon:hover::before, .header__link .icon:focus::before, .header__link .icon:focus-within::before {color: #ddd;}
-}
-@media (min-width: 992px) {
-	.book .book-cover {border: 0.9375rem solid #3f3f3f;}
-	.dropdown--user .dropdown__content {background-color: #333;}
-	.dropdown--user .dropdown__item a:hover {background: #1a1a1a; color: skyblue;}
-	.menu__item.is-active .menu__list {background: #333;}
-	.menu__item.is-active .menu__item a:hover {background: #1a1a1a; color: skyblue;}
-	.authorMain__img .book-cover {background: #3a3a3a;}
-}
-@media (max-width: 991.98px) {
-	.book .title-container h1 {color: skyblue;}
-}
-@media (min-width: 1264px) {
-	.user--button .user__name {color: #ddd;} .user--button::after {color: #ddd;}
-}
-
-.pageContainer.is-wallpaper {background: #333!important;}
-
-a#tapetaEverywhere {background: #333; pointer-events: none; cursor: default;}
-
-.btn-collapsed--gradient.collapsed::after, .collapsed.btn-link.btn-collapsed--details::after {background: none!important;}
-.btn-link.btn-collapsed--details.collapsed::after {background: none!important;}
-
-.yourChallenge__header__overlay::before {background: #ff670290;}
-.yourChallenge__progress::after {background: #444;}
-.yourChallenge__progressInside {background: #ff670080;}
-.yourChallenge__content__overlay::before {background: none!important;}
-.yourChallengeHld {background: #222;}
-.dashBoardAccount__libraryItem {background: #444;}
-.sidebarLibrary__more {color: skyblue;}
-.sidebarListWithImg__title {color: skyblue;}
-.dashBoardAccount__introSecond::before {background: #444!important; background-image: none!important;}
-.dashBoardAccount__stats__titleHld {background: #ff670090;}
-.dashBoardAccount__stats__itemTitle::before {background: skyblue;}
-.subtitle {color: #ddd;}
-.list-group-item.active {background-color: #ffffff10 !important;}
-#DescAbout, #DescWWW {background-color: #111; color: #ddd;}
-.slider {background-color: inherit;}
-
-/* Logowanie Google, zapewne klasa tymczasowa */
-.nsm7Bb-HzV7m-LgbsSe {background-color: #222; color: #ddd;}
-
-@media (min-width: 1301px) {main.is-wallpaper {background-color: #333!important; background-image: none;}  #tapetaMain {display: none !important;} }
-
-  
-
-/* koniec */  
-}
+    @import url(https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800;900&display=swap);
+    .form-control::placeholder { color: #ccc; opacity: 1; }
+    #randomLibrary { display: none; }
+    #searchMoreFriends { background-image: none !important; background-color: #252525; }
+    #searchtype { background-color: #222; }
+    .addBookHelpers__text { color: #ddd; }
+    .addBookInputs__label { color: #ddd; }
+    .addBookTitle { background: #444; }
+    .add-opinion .your-opinion .avatar-container { background: #444; }
+    .add-opinion .your-opinion { background: #444; }
+    .add-opinion .your-opinion--down::before { border-color: #444 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0); }
+    .around-book__text { color: #ddd; }
+    .around-book-news__small { background: #222; }
+    .authorAllBooks__singleExtraPrice { color: #ddd; }
+    .authorAllBooks__singleTextSeries { color: #ddd; }
+    .authorAllBooks__singleTextShelfLeft { color: #ddd; }
+    .authorAllBooks__sortTitle { color: #ddd; }
+    .beforeYouAddBook { background: #333; padding-bottom: 10px; }
+    .beforeYouAddBook--white { background: #333; color: #ddd; }
+    .bgBlue { background: #2b5390; color: #eee; }
+    .bg-white { background-color: #333 !important; }
+    .book .btn.read-action, .book .read-action.cancel-report-a-bug, .book .read-action.send-report-a-bug, .book body.series_addbookstoshelf .read-action.btn--serie-save, body.series_addbookstoshelf .book .read-action.btn--serie-save { background: #333; color: #ccc!important; }
+    .book .btn-collapsed--details::after { background: none; }
+    .book .rating { background: #333; }
+    .book { background: #3a3a3a; }
+    .book-cover__icon__item { background: #333; }
+    .book-cover__icons-hld { background: linear-gradient(to left, #333, #333, transparent); }
+    .book-menu .btn .button-imgIco, .book-menu .cancel-report-a-bug .button-imgIco, .book-menu .send-report-a-bug .button-imgIco, .book-menu body.series_addbookstoshelf .btn--serie-save .button-imgIco, body.series_addbookstoshelf .book-menu .btn--serie-save .button-imgIco { color: white; }
+    .book-menu .btn span.icon, .book-menu .cancel-report-a-bug span.icon, .book-menu .send-report-a-bug span.icon, .book-menu body.series_addbookstoshelf .btn--serie-save span.icon, body.series_addbookstoshelf .book-menu .btn--serie-save span.icon { color: #ddd; }
+    .book-menu .btn, .book-menu body.series_addbookstoshelf .btn--serie-save, body.series_addbookstoshelf .book-menu .btn--serie-save, .book-menu .cancel-report-a-bug, .book-menu .send-report-a-bug { background: #333 !important; color: skyblue !important; }
+    .book-menu .btn, .book-menu body.series_addbookstoshelf .btn--serie-save, body.series_addbookstoshelf .book-menu .btn--serie-save, .book-menu .cancel-report-a-bug, .book-menu .send-report-a-bug { color: white; background: #444; }
+    .book-menu { background: #333 !important; }
+    .btn-collapsed--gradient::after { background: none; }
+    .btn-link { color: lightblue; }
+    .btn-primary, .cancel-report-a-bug, .send-report-a-bug, body.series_addbookstoshelf .btn--serie-save { color: #ddd; }
+    .btn-secondary, .send-report-a-bug { background-color: #333 !important; }
+    .btn-secondary:hover:not(.btn--filters), .send-report-a-bug:hover:not(.btn--filters), .btn-secondary:focus:not(.btn--filters), .send-report-a-bug:focus:not(.btn--filters) { background-color: #111 !important; }
+    .btnSocialsBottom .btn-link { color: #ddd; }
+    .card { background-color: #2a2a2a; }
+    .chart .progress { background-color: #333; }
+    .comments-list .comment .comment-cloud .date { color: #ddd; }
+    .comments-list .comment .comment-cloud { background: #444; }
+    .comments-list .comment .comment-cloud::before { border-color: rgba(0, 0, 0, 0) #444 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0); }
+    .dashboard__challenge__stats { background: #444; }
+    .dashboard__challenge__take { background: #444; }
+    .dashBoardAccount__friends__info { color: inherit; }
+    .dashBoardAccount__introFourth { color: lightblue; }
+    .dashBoardAccount__profilInfoStatusLeft { color: lightblue; }
+    .dashBoardAccount__statsBgDark { background: #444; }
+    .dashBoardAccount__statsBgLightBlue { background: #111; }
+    .dashBoardActivity__singleInfoReviewInside { background: #444; }
+    .dashBoardActivity__singleInfoReviewInside::before { border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #444; }
+    .dashBoardActivity__singleTopInfo a { color: lightskyblue; }
+    .datepicker .datepicker-switch:hover, .datepicker .next:hover, .datepicker .prev:hover, .datepicker tfoot tr th:hover { background: #222; }
+    .datepicker table tr td span.focused, .datepicker table tr td span:hover { background: #222; color: orange; }
+    .dropdown-menu { background-color: #333; color: #ddd; }
+    .dropdown--user a { color: #ddd; }
+    .error404__right { filter: invert(80%) hue-rotate(170deg); }
+    .filtr__button { color: skyblue; }
+    .filtr__itemTitle { color: #ddd; }
+    .filtr__title { color: #ddd; }
+    .footer__fixed { border-top: 1px solid #444; background: #222; }
+    .form__checkboxTitle { color: #fff; }
+    .form__input, .report-a-bug-form-container input { color: #ddd; }
+    .form__label { color: #fff; }
+    .form__photo { background: #3a3a3a; }
+    .form__photoMiddle { color: beige; }
+    .form__text { color: #ddd; }
+    .form-control { background-color: #333; color: #ddd; }
+    .form-control:focus { color: orange; background-color: #111; }
+    .forumPosts__bodyGroup { color: #ddd; }
+    .forumPosts__bodyGroupLink { color: skyblue; }
+    .forumPosts__bodyItem--notifications { background: #272727; }
+    .forumPosts__bodyItem--notifications.is-new { background: rgba(44, 138, 86, 0.25); }
+    .forumPosts__header--jobPage { background: #444; }
+    .forumUsers__commentAdd__write__textarea { background: #3f3f3f; }
+    .greyBg { background-color: #131313; }
+    .header { background: #333; }
+    .header__primary { background: #333; }
+    .header__secondary { background: #333; }
+    .img-centered-background, .quotes__details__col .small-book-cover, .quotes__details__col .authorAllBooks__singleImgWrap { background-color: #131313; }
+    .is-search-open .header__wrapper { background: #333; }
+    .librabryBookshelf__button { color: skyblue; }
+    .libraryTop__bg { background-color: #444; }
+    .listFiltered-hld { background: #333; }
+    .list-group-item { background-color: #333; }
+    .list-group-item { color: #ddd; }
+    .listLibrary__dropDownList { background: #262626; }
+    .listLibrary__ratingAll { color: #ddd; }
+    .listLibrary__ratingStars { color: #ddd; }
+    .listLibrary__ratingText { color: #dadada; }
+    .logo__image { filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(170deg) brightness(103%) contrast(104%); }
+    .mapContainer__detailsListItem:hover, .mapContainer__detailsListItem:focus { background: #222; }
+    .mapContainer__detailsListItem__text { color: #ddd; }
+    .menu__item a { color: #cdf; }
+    .messages-hld .inbox-head { background: #262626; }
+    .messages-hld .mail-box .lg-side { background: #444; }
+    .messages-hld .mail-box .sm-side { background: #222; }
+    .messages-hld .mail-option .chk-all, .messages-hld .mail-option .btn-group a.btn, .messages-hld .mail-option .btn-group a.cancel-report-a-bug, .messages-hld .mail-option .btn-group a.send-report-a-bug, .messages-hld .mail-option .btn-group body.series_addbookstoshelf a.btn--serie-save, body.series_addbookstoshelf .messages-hld .mail-option .btn-group a.btn--serie-save { background: #242424; }
+    .modal .modal-header { background-color: #103b79; color: #fff; }
+    .modal-content { background-color: #222; }
+    .newsCats__date { color: #ddd; }
+    .newsRelated__bg--light { background: #3d3d3d; }
+    .official-review { background-color: inherit; }
+    .official-review__titleTop { background: #444; }
+    .official-review-home__dateBottom { color: #ddd; }
+    .official-review-home__grey--blue { background: #444; }
+    .official-review-home__nick { color: skyblue; }
+    .official-review-home__review::before { background: #444; }
+    .official-review-home__review--blue { background: #444; }
+    .official-review-home__text--blue { color: #ddd; }
+    .official-reviews-tile .official-reviews-tile__intro { color: #ccc; }
+    .official-reviews-tile .official-reviews-tile__nick { color: #cdcdcd; }
+    .official-reviews-tile .official-reviews-tile__title { color: #dedede; }
+    .official-reviews-tile .official-reviews-tile__top { color: #bbb; }
+    .official-reviews-tile .official-reviews-tile__top span { color: #dedede; }
+    .opinion .rating, .opinion .your-rating { background: #444 }
+    .paginationList__input { background-color: #333; color: #ddd; }
+    .popular-books { background: #444; }
+    .preStyledForm__input { color: #eeb; }
+    .profilInfo__libraryTop__bg_grey { background-image: none !important; }
+    .profilReview__bg { background: #444; }
+    .quotes .quote { background-image: none; }
+    .quotes .quote.no-quotes .card-body h3 { color: lightskyblue; }
+    .quotes .quote.no-quotes { background: none; }
+    .quotes .quote.no-quotes { background-image: none !important; }
+    .quotes .quote.no-quotes { background-image: none; }
+    .registerProcess input:-webkit-autofill, .registerProcess input:-webkit-autofill:hover, .registerProcess input:-webkit-autofill:active, .registerProcess input:-webkit-autofill:focus { background-color: #444 !important; color: #ccc !important; -webkit-box-shadow: 0 0 0 1000px #ededed inset !important; -webkit-text-fill-color: #ccc !important; }
+    .registerProcess__left { background-color: #444; }
+    .registerProcess__leftOr span { background-color: #444; }
+    .related-content { background-color: #444; }
+    .report-a-bug-form-container { background-color: #444; }
+    .result-tile__wrapper { color: #ddd; }
+    .result-tile--no-image .result-tile__wrapper .result-tile__image-wrapper { background-color: #222; }
+    .searchbox { background: #3a3a3a; }
+    .searchbox__button { background: #222; }
+    .searchbox__cancel:hover, .searchbox__cancel:focus { color: #ddd; }
+    .searchbox__input { background: #222; border-color: #222; }
+    .searchbox__input { color: white; }
+    .searchbox__input:hover, .searchbox__input:focus { border-color: black; }
+    .searchUserResults__listItems { background: #aaa; box-shadow: none; }
+    .small-book .small-book-author { color: #ddd; }
+    .small-book .small-book-title { color: lightskyblue; }
+    .social-square .social-square__header { color: #ddd; }
+    .social-square__avatar { display: none; }
+    .societyContainer-hld .society-item { color: skyblue; }
+    .societyContainer-hld { background-color: #131313; }
+    .suggestions::after { background: none; }
+    .suggestions__cta:hover, .suggestions__cta:focus { background-color: #333; }
+    .table-inbox { color: #ddd; }
+    .tabsNav__item { border-top: 1px solid #222; border-left: 1px solid #222; border-right: 1px solid #222; background: #1d1d1d; }
+    .tabsNav__sortSelectInside, .report-a-bug-form-container select { background: #333; }
+    .tabsNav__sortSelectInside, .report-a-bug-form-container select { color: #ddd; }
+    .tagify__input::before { color: #ccc; }
+    .t-blue, .blue { color: lightskyblue; }
+    .text-dark { color: #c7c7a9 !important; }
+    .text-dark { color: #c7c7a9 !important; }
+    .t-grey, .grey { color: #ddd; }
+    .tile__author { color: #ddd; }
+    .tile__intro, .tile__title { color: #ddd; }
+    a { color: lightskyblue; }
+    a:link { color: lightskyblue; }
+    body { background-color: #333; color: #ddd; }
+    body::-webkit-scrollbar { background: #353535; }
+    body:not(.cms_gettext) .quotes .quote .card-body .card__bottom-btnLight, body:not(.cms_gettext) .card__bottom-btnLight { color: #ddd }
+    body:not(.cms_gettext) .quotes .quote .card-footer.card-footer--light { background: #444; }
+    body:not(.cms_gettext) .quotes .quote { background: #444; }
+    button.menu__button { color: white; }
+    div.comment-cloud__body p { color: #000; }
+    div.comment-cloud__body p { color: #ddd; }
+    div.dashBoardAccount__friends__wrap { background: #444; }
+    div.dashBoardAccount__intro { background: #333; }
+    div.dashBoardAccount__introFourth { background: #444; }
+    div.dashBoardAccount__libraryItemsHld { background: #444; }
+    div.dashBoardActivity__singleInfoBookSeries { color: #ddd; }
+    div.dashBoardActivity__singleTopInfo { color: #ddd; }
+    div.dashBoardActivity__undeTitle { color: #ddd; }
+    div.overlay { background: #252525; }
+    .overlay {background: #252525; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.65);}
+    h2.dashBoardAccount__title { color: lightskyblue; }
+    input { background-color: #222; }
+    input { color: white; }
+    messages-hld ul.inbox-nav li a { color: #ccc; }
+    .around-book-news__smallGrey { background-color: #161616; }
+    .around-book__tag { background: #30578e; }
+    .container-fluid { background: #1a1a1a; }
+    .cover-tile .cover-tile__author, .cover-tile .cover-tile__title { color: #b4b4b4; }
+    .info-icon { background: #2b5390; }
+    .our-reviewers .our-reviewers__col { color: #bd4000; }
+    .our-reviewers .our-reviewers__count { color: #aaa; }
+    .our-reviewers .our-reviewers__nick { color: #c4c4c4; }
+    .our-reviewers .our-reviewers__status { color: #bbb; }
+    .report-a-bug-form h5 { background: #2b5390; }
+    .result-tile__badge { background-color: #602000; }
+    .small-book .small-book-cover .rating { background: #2b5390; }
+    .small-book-details { background: #2b5390; }
+    .suggestions__cta { background-color: #ff550050; }
+    .tabs .tabs__item { color: #eee; }
+    .tile--category-13 .tile__category { background: rgba(60, 20, 20, .8); }
+    .tile__comments { color: #b1b1b1; }
+    body.author_gettext .small-book-details.small-book-details-rating { background: #2b5390; }
+    .community-most-active-tile .community-most-active-tile__nick { color: #c3c3c3; }
+    .community-most-active-tile .community-most-active-tile__num { color: #c3c3c3; }
+    .forum-most-commented-tile .forum-most-commented-tile__bottom { background: #1a1a1a; }
+    .forum-most-commented-tile .forum-most-commented-tile__nick { color: #c3c3c3; }
+    .forum-most-commented-tile .forum-most-commented-tile__post-intro { color: #c3c3c3; }
+    .forum-most-commented-tile .forum-most-commented-tile__title { color: #eee; }
+    .forumPosts__messagesList__badge { background: #ff670050; }
+    .latest-activites .latest-activites__secondary { background: #1a1a1a; }
+    .reviews-tile--featured::before { background-color: #1a1a1a; }
+    .reviews-tile__content { color: #eee; }
+    .reviews-tile__reviewer { color: #eee; }
+    .reviews-tile__time { color: #bababa; }
+    .social-buttons .social-button--counter { color: #bababa; }
+    .video-tile__date { color: #bababa; }
+    .video-tile__title { color: #ddd; }
+    .quote-tile::before { color: #272727; }
+    .quote-tile--featured::before { color: #1a1a1a; }
+    .challenge-taken__title { color: #eee; }
+    .challenge-taken .challenge__progress { background: #1a1a1a; }
+    .challenge-taken .challenge__counter { color: #eee; }
+    .challenge-taken__info { color: #eee; }
+    .challenge__sidebar-heading { color: #eee; background: #1a1a1a; }
+    .challenge__sidebar-users { background: #1a1a1a; }
+    .challenge__nick { color: #eee; }
+    .challenge__time { color: #bababa; }
+    .calendar__anniversary--birth { background: #184d0a; }
+    .calendar__input { background: #333; color: #eee; }
+    .calendar__date .calendar__button, .calendar__date .calendar__button--datepicker { background: #333; }
+    .challenge__progress { background: #333; }
+    .society_whrite-slider-hld { background: #1a1a1a; }
+    .society_whrite-slider-hld .society-item { color: #aaa; }
+    .tooltip-inner { background-color: #2b5390; }
+    .bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^=top] .arrow::before { top: 0; border-width: .4rem .4rem 0; border-top-color: #2b5390; }
+    .bs-tooltip-right .arrow::before, .bs-tooltip-auto[x-placement^=right] .arrow::before { right: 0; border-width: .4rem .4rem .4rem 0; border-right-color: #2b5390; }
+    .bs-tooltip-bottom .arrow::before, .bs-tooltip-auto[x-placement^=bottom] .arrow::before { bottom: 0; border-width: 0 .4rem .4rem; border-bottom-color: #2b5390; }
+    .bs-tooltip-left .arrow::before, .bs-tooltip-auto[x-placement^=left] .arrow::before { left: 0; border-width: .4rem 0 .4rem .4rem; border-left-color: #2b5390; }
+    .review-home__item { background: #1a1a1a; }
+    .review-home__item .review-home__reviewer.review-home__reviewer--blue { background: #182e51; }
+    .official-review-home__tag { background: #2b5390; }
+    .official-review-home__review { background: #1a1a1a; }
+    .review-home__item .review-home__date { color: #afb7c4; }
+    .forumSection__itemsHld { background: #1a1a1a; }
+    .forumSection__itemName { color: skyblue; }
+    .forumSection__itemPosts { color: #aaa; }
+    .bgLightBlue { background-color: #1a1a1a; }
+    .forumUsers__body__pinned-hld--bg { background: #1a1b1c; }
+    .forumUsers__header__title { color: #15c8ff; }
+    .communityHeader { background: #444; }
+    .forumUsers__body__perWeek { color: #ddd; }
+    .forumUsers__header__title { color: #ddd; }
+    .lightTabs-hld { background: #1a1a1a; }
+    .lightTabs__item .nav-link { color: skyblue; }
+    .forumUsers__body__pinnedItem a { color: skyblue; }
+    .forumUsers__body__desc { color: #aaa; }
+    .forumUsers__search-hld .topForum__input { color: #ddd; }
+    .forumUsers__header { color: #aaa; }
+    .profilReview__info { background: #2b5390; }
+    .category-tags span.tag { background: #2b5390; }
+    .book .title-container::before { color: #3a3a3a; }
+    .book .title-container { background-color: #3a3a3a; }
+    .modal .read-action { background: #333; }
+    .modal .read-action.active { background: #ff500020; }
+    .modal .add-opinion .your-opinion textarea { background: #111; color: #eee; }
+    .modalAddToLib__another-shelves-hld::before { background: none; }
+    .modalAddToLib__another-shelves { max-height: fit-content; }
+    .sliderHtml .sliderHtml__btn { background: #1a1a1a; }
+    .yourChallenge__percentInfo span { color: skyblue; }
+    .dashBoardActivity__singleInfoReviewInside { color: #ddd; }
+    .form__switchSlider { background-color: #444; }
+    .form__switchInput:checked + .form__switchSlider { background-color: #18698a; }
+    .randomButton { color: skyblue; }
+    .btn-primary:hover, .cancel-report-a-bug:hover, .send-report-a-bug:hover, body.series_addbookstoshelf .btn--serie-save:hover, .btn-primary:focus, .cancel-report-a-bug:focus, .send-report-a-bug:focus, body.series_addbookstoshelf .btn--serie-save:focus { background: #ff670050; }
+    .report-a-bug-container .report-a-bug { background: #621f00; }
+    .listLibrary__dropDownBtn.listLibrary--btn-secondary { background-color: #ff670050; }
+    .book-cover__icon__item:hover { background: #2b5390; }
+    .carousel .carousel__cta:focus, .carousel .carousel__cta:hover { background-color: #ff550050; }
+    .latest-articles__cta:focus, .latest-articles__cta:hover { background-color: #ff550050; }
+    .squiggle__cta:focus, .squiggle__cta:hover { background-color: #ff550050; }
+    .popular-books .popular-books__cta:focus, .popular-books .popular-books__cta:hover { background-color: #ff550050; }
+    .reviews-tile--featured .reviews-tile__cta:focus, .reviews-tile--featured .reviews-tile__cta:hover { background-color: #ff550050; }
+    .reviews-featured-list__cta:focus, .reviews-featured-list__cta:hover { background-color: #ff550050; }
+    .latest-activites .latest-activites__cta:focus, .latest-activites .latest-activites__cta:hover { background-color: #ff550050; }
+    .reviews-featured-list__cta:focus, .reviews-featured-list__cta:hover { background-color: #ff550050; }
+    .challenge__cta { background-color: #ff550050; }
+    .challenge__cta:focus, .challenge__cta:hover { background-color: #ffffff50; }
+    .favorite-quotes__cta:focus, .favorite-quotes__cta:hover { background-color: #ffffff50; }
+    .menu button { color: #ddd; }
+    .menu.is-active .menu__content { background: #333; }
+    .menu button .icon.icon-menu, .menu button .icon.icon-close { color: #ddd; }
+    .suggestions__item a { color: #ddd; }
+    .newsBoxBook__fans { color: skyblue; }
+    .btn, .cancel-report-a-bug, .send-report-a-bug, body.series_addbookstoshelf .btn--serie-save { color: #cdcdcd; }
+    select.selectCustom__select:active, select.selectCustom__select:hover { background: #333; }
+    .btn-scroll-up:hover { background-color: #ff670050; }
+    .addBookAuthorsList { background: #222; }
+    .addBookTitleList { background: #222; }
+    .addBookTitleList__top { background: #1a1a1a; }
+    .addBookTitleList__item:hover, .addBookTitleList__item:focus { background: #1a1a1a; }
+    .addBookTitleList__year { color: #ddd; }
+    .form__button { color: skyblue; }
+    .cyclesDetails__header { background-color: #3a3a3a; }
+    .cyclesDetails .rating { background: #333; }
+    .link-name { color: skyblue; }
+    .authorMain__rating { background: #333; }
+    .authorMain__authorLink { color: skyblue; }
+    .authorMain__authorLinkText span { color: #ddd; }
+    .authorMain__authorListItem { color: #ddd; }
+    .authorMain__ratingTitle { color: #ddd; }
+    .authorMain__ratingListItem { color: #ddd; }
+    .authorMain__ratingFansCount { color: #ddd; }
+    .btn-primary:not(:disabled):not(.disabled):active, .cancel-report-a-bug:not(:disabled):not(.disabled):active, .send-report-a-bug:not(:disabled):not(.disabled):active, body.series_addbookstoshelf .btn--serie-save:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .cancel-report-a-bug:not(:disabled):not(.disabled).active, .send-report-a-bug:not(:disabled):not(.disabled).active, body.series_addbookstoshelf .btn--serie-save:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle, .show > .dropdown-toggle.cancel-report-a-bug, .show > .dropdown-toggle.send-report-a-bug, body.series_addbookstoshelf .show > .dropdown-toggle.btn--serie-save { background-color: #2b5390; border-color: #2b5390; }
+    .dashboardUserList__dropdown-menu .dropdown-item { color: skyblue; }
+    .dropdown-item:hover, .dropdown-item:focus { background-color: #111; }
+    .categoryDescription__boxDescription { color: #ddd; }
+    .communityRankingList__item__header { color: skyblue; }
+    .communityRanking__listSmall__header { background: #2b5390; }
+    .communityRankingList__item__users { background: #222; }
+    .communityRanking__listSmall__body li { color: #ddd; }
+    .communityRanking__listSmall__body li a { color: #ddd; }
+    .communityRanking__listSmall__body li:hover { background: #111; }
+    .authorSeries__bg { background: #444; }
+    .authorSeries__bookMore:hover { background: #ffffff50; }
+    .popularAuthorsInCategory__withoutTop { background: #444; background-image: none; }
+    .progress { background-color: #1a1a1a; }
+    .news-and-announcements { background: #444; }
+    .news-and-announcements .featured-book { background: #555; }
+    .news-and-announcements__mobileHide .small-book .small-book-title { color: skyblue; }
+    .tooltip.bs-tooltip-auto[x-placement^="top"] .arrow::before, .tooltip.bs-tooltip-top .arrow::before { border-color: #2b5390 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0); }
+    .tooltip.bs-tooltip-auto[x-placement^="bottom"] .arrow::before, .tooltip.bs-tooltip-bottom .arrow::before { border-color: #2b5390 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0); }
+    .filtr__wrapItems--alphabetical__item { background: #ff670050 !important; }
+    .filtr__wrapItems--alphabetical__item:hover, .filtr__wrapItems--alphabetical__item:focus, .filtr__wrapItems--alphabetical__item.filterChecked { background: #2b5390 !important; }
+    .btn-outline-primary:hover { background-color: #2b5390; border-color: #2b5390; }
+    .jsr_label { color: #ddd; }
+    .datepicker table tr td span.focused, .datepicker table tr td span:hover { background: #222; }
+    .datepicker .datepicker-switch:hover, .datepicker .next:hover, .datepicker .prev:hover, .datepicker tfoot tr th:hover { background: #222; }
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link { color: #ddd; background-color: #2b5390; border-color: initial; }
+    .forumUsers__commentAdd__write__bottom__btn.btn, .forumUsers__commentAdd__write__bottom__btn.cancel-report-a-bug, .forumUsers__commentAdd__write__bottom__btn.send-report-a-bug, body.series_addbookstoshelf .forumUsers__commentAdd__write__bottom__btn.btn--serie-save { background: #222; }
+    .forumUsers__commentAdd__write__bottom__btn.btn:hover, .forumUsers__commentAdd__write__bottom__btn.cancel-report-a-bug:hover, .forumUsers__commentAdd__write__bottom__btn.send-report-a-bug:hover, body.series_addbookstoshelf .forumUsers__commentAdd__write__bottom__btn.btn--serie-save:hover { background: #ff670050; }
+    .newsCats__btn { background: #2b5390; }
+    .newsCats__btn:hover { background: #ff670050; }
+    .tile--hero .tile__cta:focus, .tile--hero .tile__cta:hover { background-color: #ffffff50; }
+    .bgGrey { background-color: #444; }
+    .help__sidebarLeft__item { background: #2a2a2a; }
+    .lcaward-header { background: #333; }
+    .lcaward-header__logo { filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(170deg) brightness(103%) contrast(104%); }
+    .lcaward-previous-editions { background: #333; }
+    .lcaward-partners { background: #333; }
+    .lcaward-partner__img { filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(170deg) brightness(103%) contrast(104%); }
+    .lcaward-counter--countdown { background: #333; }
+    .lcaward-counter__text { color: #d3d3d3; }
+    .lcaward-previous-editions__cta:hover, .lcaward-previous-editions__cta:focus { background-color: #ffffff50; color: #fffb00; }
+    .comment__spam { background: #222c; }
+    .lcaward-articles { background: #333; }
+    .lcaward__instruction { background: #333; }
+    .nav-tabs { background: #333; }
+    .nav-tabs .tab a { border-bottom: 10px solid #cdcdcd; color: #cdcdcd; }
+    .lcAward__tooltip { filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(170deg) brightness(103%) contrast(104%); }
+    .category-tile__name, .custom-category__title { color: #ddd; }
+    .category-tile__cta:hover, .category-tile__cta:focus { background-color: #fffb; }
+    .lcaward-counter__title { color: #888; }
+    .lcaward-books-list { background: #333; }
+    .lcaward-books-list__cover .small-book-title, .lcaward-books-list__cover .small-book-author { color: #c4c4c4; }
+    .lcaward-category-bottom { background: #333; }
+    .lcaward__votes-account { background: #333; }
+    .footer__popular a { color: inherit; }
+    .modal .btn-outline-primary.active { color: skyblue !important; }
+    .dropdown__content { background: #333; }
+    .dropdown__cta--primary { background-color: #ff550050; }
+    .dropdown__cta--primary:hover, .dropdown__cta--primary:focus { background-color: #ffffff20; }
+    .dropdown__cta:not(.dropdown__cta--primary):hover, .dropdown__cta:not(.dropdown__cta--primary):focus { background-color: #ff550050; }
+    .dropdown.is-active .dropdown__open { background-color: #ffddcc50; }
+    .btn--bookshelf-add-new { background: #ff670050; }
+    .small-biblio { color: skyblue; }
+    .lcAward__modal .btn.lcAward__btnAccent--1, .lcAward__modal body.series_addbookstoshelf .lcAward__btnAccent--1.btn--serie-save, body.series_addbookstoshelf .lcAward__modal .lcAward__btnAccent--1.btn--serie-save, .lcAward__modal .lcAward__btnAccent--1.cancel-report-a-bug, .lcAward__modal .lcAward__btnAccent--1.send-report-a-bug { background: #e46e0d90; }
+    .lcAward__modal .btn.lcAward__btnAccent--2:hover, .lcAward__modal body.series_addbookstoshelf .lcAward__btnAccent--2.btn--serie-save:hover, body.series_addbookstoshelf .lcAward__modal .lcAward__btnAccent--2.btn--serie-save:hover, .lcAward__modal .lcAward__btnAccent--2.cancel-report-a-bug:hover, .lcAward__modal .lcAward__btnAccent--2.send-report-a-bug:hover, .lcAward__modal .btn.lcAward__btnAccent--2:focus, .lcAward__modal body.series_addbookstoshelf .lcAward__btnAccent--2.btn--serie-save:focus, body.series_addbookstoshelf .lcAward__modal .lcAward__btnAccent--2.btn--serie-save:focus, .lcAward__modal .lcAward__btnAccent--2.cancel-report-a-bug:focus, .lcAward__modal .lcAward__btnAccent--2.send-report-a-bug:focus { background: #e46e0d90; }
+    .lcAward__modal .form__label, .lcAward__modal .form__checkboxTitle { color: #ddd; }
+    .lcAward__modal .form__input, .lcAward__modal .report-a-bug-form-container input, .report-a-bug-form-container .lcAward__modal input { color: #e3d3d3; border-color: #ddd; }
+    .lcAward__modal .btn.lcAward__btnAccent, .lcAward__modal body.series_addbookstoshelf .lcAward__btnAccent.btn--serie-save, body.series_addbookstoshelf .lcAward__modal .lcAward__btnAccent.btn--serie-save, .lcAward__modal .lcAward__btnAccent.cancel-report-a-bug, .lcAward__modal .lcAward__btnAccent.send-report-a-bug { background: #e46e0d90; }
+    .authorMain__author { color: #ddd !important; }
+    .btn-item-edit { background: #333; }
+    @media (min-width: 768px) {
+        .searchbox__button:hover::before, .searchbox__button:focus::before, .searchbox__button:focus-within::before { color: #ddd; }
+        .header__link .icon:hover::before, .header__link .icon:focus::before, .header__link .icon:focus-within::before { color: #ddd; } }
+    @media (min-width: 992px) {
+        .book .book-cover { border: 0.9375rem solid #3f3f3f; }
+        .dropdown--user .dropdown__content { background-color: #333; }
+        .dropdown--user .dropdown__item a:hover { background: #1a1a1a; color: skyblue; }
+        .menu__item.is-active .menu__list { background: #333; }
+        .menu__item.is-active .menu__item a:hover { background: #1a1a1a; color: skyblue; }
+        .authorMain__img .book-cover { background: #3a3a3a; } }
+    @media (max-width: 991.98px) {
+        .book .title-container h1 { color: skyblue; } }
+    @media (min-width: 1264px) {
+        .user--button .user__name { color: #ddd; }
+        .user--button::after { color: #ddd; } }
+    .pageContainer.is-wallpaper { background: #333!important; }
+    a#tapetaEverywhere { background: #333; pointer-events: none; cursor: default; }
+    .btn-collapsed--gradient.collapsed::after, .collapsed.btn-link.btn-collapsed--details::after { background: none!important; }
+    .btn-link.btn-collapsed--details.collapsed::after { background: none!important; }
+    .yourChallenge__header__overlay::before { background: #ff670290; }
+    .yourChallenge__progress::after { background: #444; }
+    .yourChallenge__progressInside { background: #ff670080; }
+    .yourChallenge__content__overlay::before { background: none!important; }
+    .yourChallengeHld { background: #222; }
+    .dashBoardAccount__libraryItem { background: #444; }
+    .sidebarLibrary__more { color: skyblue; }
+    .sidebarListWithImg__title { color: skyblue; }
+    .dashBoardAccount__introSecond::before { background: #444!important; background-image: none!important; }
+    .dashBoardAccount__stats__titleHld { background: #ff670090; }
+    .dashBoardAccount__stats__itemTitle::before { background: skyblue; }
+    .subtitle { color: #ddd; }
+    .list-group-item.active { background-color: #ffffff10 !important; }
+    #DescAbout, #DescWWW { background-color: #111; color: #ddd; }
+    .slider { background-color: inherit; }
+    /* Logowanie Google, zapewne klasa tymczasowa */
+    .nsm7Bb-HzV7m-LgbsSe { background-color: #222; color: #ddd; }
+    @media (min-width: 1301px) {
+        main.is-wallpaper { background-color: #333!important; background-image: none; }
+        #tapetaMain { display: none !important; } }
+    @media (min-width: 576px) {
+        .modal-dialog { max-width: 100%; } }
+    body { --banner-top-sticky-height: 0!important; --banner-top-start-height: 0!important; }
+    .ads__TopCollContainer__inner { height: 0 !important; }
+    .menu__item--award a:before { filter: invert(100%); }
+    .dropdown--user .dropdown__content { background-color: #222; }
+    .tagify tag > div { color: #eee; background: #222; }
+    img.preloader { filter: invert(0.85); }
+    .modal:not(.lcAward__modal) { font-family: "Barlow Semi Condensed", sans-serif; letter-spacing: .08em }
+    .modal:not(.lcAward__modal) .modal-content { font-size: 16px; }
+    .listLibrary__dropDown--book-mobile { display: none; }
+    .js-footer-fixed { display: none; }
+    .tabsNav__anchor.active::after, .tabsNav__anchor:hover::after { background: none; }
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link { background-color: #2b5390; border-color: #2b5390; }
+    .tabsNav__anchor.active, .tabsNav__anchor:hover { background: #162a48; }
+    .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus { border-color: #162a48; }
+    .listLibrary__main-shelf-select.btn, .listLibrary__main-shelf-select.cancel-report-a-bug, .listLibrary__main-shelf-select.send-report-a-bug, body.series_addbookstoshelf .listLibrary__main-shelf-select.btn--serie-save { background: #222; }
+    .ribbon { display: none; }
+    /* TESTOWO */
+    .modal .btn-b-light { background: #222; color: skyblue; }
+    .cover-contest__bg { background: #222; }
+    .menu__item--contest a::before {filter: invert(100%);}
+    .result-tile--article .result-tile__author {color: #ddd;}
+    
+    
+    
+    
+    
+    
+    
+    /* koniec */ }
